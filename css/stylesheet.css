@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+
+body {
+	font-family: 'Comic Neue';
+	margin: auto;
+}
+
+#logo {
+	height: 100px;
+	width: 100px;
+	border: 3px solid darkblue;
+	border-radius: 50px;
+	display: inline-block;
+	float: left;
+	margin: 20px;
+}
+
+#landingText {
+	display: flex;
+	flex-direction: column;
+	flex: 0 1 50vw;
+	text-align: center;
+	height: 50vh;
+	justify-content: center;
+}
+
+main {
+	background-color: #A6D1E0;
+	width: 80%;
+	margin: auto;
+}
+
+#landing{
+    background-color: #A6D1E0;
+}
+
+#landingText h1{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#landingText h2{
+    font-weight: bold;
+    margin: 0;
+	text-decoration: none;
+}
+
+
+#landingImage {
+	background-image: url("../images/mainimage2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	margin: 0;
+}
+
+.btn1, btn2 {
+	background: #2B90B3;
+	color: blue;
+	font-weight: bold;
+	padding: 0.5rem;
+	margin-top:5px 0 0;
+	border-radius: 50px;
+    text-decoration: none;
+    display: inline-block;
+	
+	border: 1px #ccc solid;
+    padding: 0.5rem;
+    margin-top: 2rem 0 0;
+    border-radius: 50px;
+}
+
+.btn1:hover {
+	background-color: aqua;
+	color: azure;
+}
+
+.header {
+	background-color: grey;
+	color: lightblue;
+	padding: 0.5rem;
+	text-align: center;
+}
+
+.caption {
+	text-align: center;
+	padding: 0.5rem;
+}
+
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+} 
+
+figcaption {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: brown;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+
+
+/* Form CSS */
+
+.container {
+	width: 80%;
+	margin:auto;
+}
+
+#formDiv{
+    width: 70%;
+    float: left;
+}
+.clear {
+	clear: both;
+}
+
+.myForm {
+	padding: 20px;
+	text-align: center;
+	border: 4px solid green;
+	background-color: #9EFF9A;
+}
+.myForm label{
+	display:block;
+	padding: 5px;
+}
+
+.myForm input[type="text"], input[type="email"], textarea {
+	padding: 5px;
+	width: 60%;
+}
+
+textarea {
+	height: 60px;
+}
+
+footer {
+	background-color: #C6E2FF;
+	padding: 5px;
+	margin: 10px;
+}
+
+
+
+
+
